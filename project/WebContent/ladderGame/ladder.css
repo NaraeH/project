@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+
+#back {
+	width: 1570px;
+	height: 1000px;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	z-index: 3;
+}
+
+#main {
+	margin: 0 auto;
+	border: solid 1px #19a4f6;
+	width: 1000px;
+	height: 620px;
+	z-index: 1;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#mainTitle {
+	background: linear-gradient(#66c1f9, #19a4f6);
+	height: 65px;
+	line-height: 50px;
+	padding-left: 50px;
+	border-radius: 5px;
+	padding-top: 1px;
+	border: #077dc5;
+}
+
+#mainTitle h1 {
+	width: 300px;
+	background: #FFFFFF;
+	border-radius: 8px;
+	text-align: center;
+}
+
+#mainContent {
+	margin-top: 15px;
+}
+
+#ladderCanvas {
+	border: dashed #19a4f6;
+	padding: 10px 10px;
+	margin: 50px 30px 50px 30px;
+}
+
+.detailLadder {
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	display: inline;
+	border-radius: 5px;
+}
+.title{
+	width: 178px;
+	height: 40px;
+	background: linear-gradient(#66c1f9, #19a4f6);
+	border: 1px solid #19a4f6;
+	border-radius: 5px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.content{
+	height:154px;
+	border-right: 4px solid #c9c9c9;
+	border-bottom: 4px solid #c9c9c9;
+	border-left: 4px solid #c9c9c9;
+	border-radius: 0px 0px 8px 8px;
+	overflow-y: scroll;
+}
+#inputName {
+	margin-top: 50px;
+}
+
+#inputResult {
+	margin-top: 275px;
+}
+
+.contentDetail{
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+/* --------------팝업---------------- */
+#pop {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 80px;
+	left: 580px;
+	z-index: 100;
+}
+
+#popTitle {
+	background: linear-gradient(to right, #009af4, #2baefd);
+	border-radius: 8px 8px 0px 0px;
+	line-height: 35px;
+	color: #ffffff;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+#popContent {
+	width: 400px;
+	background: #FFFFFF;
+	border-top: 0px;
+	border-right: 4px solid #c9c9c9;
+	border-bottom: 4px solid #c9c9c9;
+	border-left: 4px solid #c9c9c9;
+	border-radius: 0px 0px 8px 8px;
+	padding: 10px;
+	font-size: 80%;
+	line-height: 150%;
+}
+
+#popContent th {
+	padding-left: 25px;
+}
+
+
+#errorMsg {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+

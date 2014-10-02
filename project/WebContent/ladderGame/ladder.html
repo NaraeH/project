@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="ladder.css">
+<link rel="stylesheet" href="common.css">
+
+ 
+</head>
+<body>
+  <div id="back"></div>
+
+  <div id="main">
+    <div id="mainTitle">
+      <h1>사다리타기 게임</h1>
+    </div>
+    <div id="mainContent">
+      <canvas id="ladderCanvas" width="700" height="400">
+		  </canvas>
+		   <div id="inputName" class="detailLadder">
+        <div id="inputNameTitle" class="title">참여자</div>
+        <div class="content">
+        <table id="inputNameContent" class="contentDetail">
+        <tbody></tbody>
+        </table>
+        </div>
+      </div>
+      <div id="inputResult" class="detailLadder">
+        <div id="inputResultTitle" class="title">실행결과</div>
+        <div class="content">
+        <table id="inputResultContent" class="contentDetail">
+        </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pop">
+    <div id="popTitle">Na & Ju</div>
+    <table id="popContent">
+      <tr>
+        <th>인원수:</th>
+        <td><input type="text" id="member" size="20"></td>
+        <td><button id="btnStart" type="button">시작</button></td>
+      </tr>
+      <tr>
+        <td colspan="3">* 주의사항 *<br> 1) 참여인원은 <b>최대 20명</b> 입니다.<br>
+          2) 점선을 넘어가면 가로선을 그릴 수 없으니, <br> &nbsp;&nbsp;&nbsp;&nbsp;점선 안에서
+          선을 그려주세요.<br> 3) 너무 많은 선을 그리면,<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;원활한 진행이 불가능 할 수 있습니다.
+
+        </td>
+      </tr>
+      <tr>
+    <td colspan="3" id="errorMsg"></td>
+      </tr>
+    </table>
+  </div>
+
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="ladder.js"></script>
+</body>
+</html>

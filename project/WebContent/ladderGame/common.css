@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+button {
+	background: linear-gradient(#66c1f9, #66c1f9, #0093ea, #19a4f6, #19a4f6);
+	border: 1px solid #06a2ff;
+	padding: 5px 10px 5px;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+
+button:hover {
+	background: #6fc5f9;
+	border: 1px solid #55bcf8;
+	border-radius: 3px;
+	color: #003a5e;
+}
