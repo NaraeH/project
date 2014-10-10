@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+#main {
+	width:450px;
+	height:450px;
+	/* border: 1px solid red; */
+	margin: 50px auto auto;
+}
+
+#main div{
+	background: yellow;
+}
+
+/* #main div:hover{
+	background: rgba(255,255,255,0.3);
+} */
